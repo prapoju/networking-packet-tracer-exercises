@@ -1,0 +1,9 @@
+@startuml room-today
+' Leo and Mia's room as it is today: two computers, not connected.
+rectangle "Rosa's apartment" {
+  rectangle "Leo and Mia's room" {
+    node "Leo's computer" as LPC
+    node "Mia's computer" as MPC
+  }
+}
+@enduml

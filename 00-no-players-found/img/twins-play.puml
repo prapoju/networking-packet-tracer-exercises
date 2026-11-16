@@ -1,0 +1,15 @@
+@startuml twins-play
+' How Leo and Mia play Tank Rally today.
+|Leo|
+start
+:Opens Tank Rally;
+:Looks for a match;
+|Leo's computer|
+:Shows "No players found";
+|Leo|
+:Plays alone against the computer;
+|Mia|
+:Waits for her turn;
+:Plays alone against the computer;
+stop
+@enduml

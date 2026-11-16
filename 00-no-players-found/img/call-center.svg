@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" font-family="Comic Sans MS, Comic Neue, Chalkboard SE, cursive" stroke-linejoin="round" stroke-linecap="round">
+  <!-- wall and cubicle walls -->
+  <rect width="600" height="400" fill="#ffd23f"/>
+  <rect x="20" y="40" width="560" height="250" fill="#3bceac" stroke="#000" stroke-width="5"/>
+  <rect x="20" y="30" width="560" height="16" fill="#0ead69" stroke="#000" stroke-width="4"/>
+
+  <g transform="translate(400 80)"><!-- company poster -->
+  <rect x="40" y="62" width="150" height="70" fill="#fff" stroke="#000" stroke-width="3" transform="rotate(-3 115 97)"/>
+  <text x="115" y="90" font-size="15" font-weight="bold" fill="#0057b8" text-anchor="middle" transform="rotate(-3 115 97)">COASTLINE</text>
+  <text x="115" y="108" font-size="15" font-weight="bold" fill="#0057b8" text-anchor="middle" transform="rotate(-3 115 97)">TELECOM</text>
+  <text x="115" y="124" font-size="11" fill="#000" text-anchor="middle" transform="rotate(-3 115 97)">Smile! They can hear it!</text></g>
+
+  <!-- wall clock -->
+  <circle cx="520" cy="95" r="34" fill="#ff006e" stroke="#000" stroke-width="4"/>
+  <line x1="520" y1="95" x2="520" y2="70" stroke="#fff" stroke-width="4"/>
+  <line x1="520" y1="95" x2="538" y2="104" stroke="#fff" stroke-width="4"/>
+
+
+  <!-- Jax -->
+  <g transform="translate(-71 24) scale(0.85)">
+  <g stroke="#000" stroke-width="4">
+    <rect x="176" y="300" width="22" height="55" fill="#1d4ed8"/>
+    <rect x="204" y="300" width="22" height="55" fill="#1d4ed8"/>
+    <ellipse cx="184" cy="360" rx="18" ry="9" fill="#fff"/>
+    <ellipse cx="220" cy="360" rx="18" ry="9" fill="#fff"/>
+    <rect x="148" y="215" width="22" height="75" rx="10" fill="#f77f00"/>
+    <rect x="232" y="215" width="22" height="75" rx="10" fill="#f77f00"/>
+    <circle cx="159" cy="295" r="10" fill="#c68642"/>
+    <circle cx="243" cy="295" r="10" fill="#c68642"/>
+    <rect x="164" y="205" width="74" height="100" rx="14" fill="#f77f00"/>
+    <rect x="178" y="262" width="46" height="26" rx="6" fill="#e36414"/>
+    <rect x="192" y="190" width="18" height="18" fill="#c68642"/>
+    <circle cx="201" cy="160" r="34" fill="#c68642"/>
+    <path d="M167 155 Q165 120 201 122 Q240 120 236 155 Q228 138 218 146 Q210 132 198 144 Q186 132 178 148 Z" fill="#2b2118"/>
+  </g>
+  <circle cx="190" cy="162" r="4" fill="#000"/>
+  <circle cx="213" cy="162" r="4" fill="#000"/>
+  <path d="M190 183 L212 183" fill="none" stroke="#000" stroke-width="3"/>
+  <path d="M165 158 Q201 92 237 158" fill="none" stroke="#000" stroke-width="7"/>
+  <ellipse cx="167" cy="165" rx="9" ry="14" fill="#8338ec" stroke="#000" stroke-width="3"/>
+  <ellipse cx="235" cy="165" rx="9" ry="14" fill="#8338ec" stroke="#000" stroke-width="3"/>
+  <path d="M235 178 Q232 196 212 193" fill="none" stroke="#000" stroke-width="4"/>
+  <circle cx="210" cy="193" r="4" fill="#8338ec" stroke="#000" stroke-width="2"/>
+  </g>
+
+  <!-- desk -->
+  <rect x="0" y="290" width="600" height="110" fill="#ff7f11" stroke="#000" stroke-width="5"/>
+
+  <!-- monitor with the script -->
+  <rect x="190" y="70" width="240" height="170" fill="#333" stroke="#000" stroke-width="5"/>
+  <rect x="204" y="84" width="212" height="142" fill="#e8f4ff" stroke="#000" stroke-width="2"/>
+  <text x="310" y="106" font-size="14" font-weight="bold" fill="#e01b1b" text-anchor="middle">SCRIPT #4 - INTERNET</text>
+  <text x="214" y="134" font-size="13" fill="#000">Say:</text>
+  <text x="214" y="154" font-size="13" fill="#000">"Have you tried turning</text>
+  <text x="214" y="172" font-size="13" fill="#000">your router off and</text>
+  <text x="214" y="190" font-size="13" fill="#000">on again?"</text>
+  <text x="214" y="216" font-size="12" fill="#666">Still broken? TRANSFER.</text>
+  <rect x="290" y="240" width="40" height="30" fill="#333" stroke="#000" stroke-width="4"/>
+  <rect x="250" y="268" width="120" height="22" fill="#333" stroke="#000" stroke-width="4"/>
+
+  <!-- sticky notes on the monitor -->
+  <rect x="404" y="76" width="44" height="40" fill="#fff36b" stroke="#000" stroke-width="2" transform="rotate(8 426 96)"/>
+  <text x="426" y="92" font-size="10" fill="#000" text-anchor="middle" transform="rotate(8 426 96)">call</text>
+  <text x="426" y="106" font-size="10" fill="#000" text-anchor="middle" transform="rotate(8 426 96)">47/80</text>
+
+  <!-- keyboard -->
+  <rect x="210" y="320" width="200" height="44" fill="#3a86ff" stroke="#000" stroke-width="4"/>
+  <g stroke="#000" stroke-width="2" fill="#fff">
+    <rect x="222" y="328" width="20" height="12"/><rect x="248" y="328" width="20" height="12"/><rect x="274" y="328" width="20" height="12"/><rect x="300" y="328" width="20" height="12"/><rect x="326" y="328" width="20" height="12"/><rect x="352" y="328" width="20" height="12"/><rect x="378" y="328" width="20" height="12"/>
+    <rect x="250" y="346" width="120" height="12"/>
+  </g>
+
+  <!-- coffee mug -->
+  <path d="M460 310 L500 310 L496 365 L464 365 Z" fill="#ff006e" stroke="#000" stroke-width="4"/>
+  <path d="M500 322 Q522 330 498 350" fill="none" stroke="#000" stroke-width="4"/>
+  <path d="M472 300 Q466 290 474 280" fill="none" stroke="#777" stroke-width="3"/>
+  <path d="M488 300 Q482 290 490 280" fill="none" stroke="#777" stroke-width="3"/>
+</svg>

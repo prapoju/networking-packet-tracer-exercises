@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" font-family="Comic Sans MS, Comic Neue, Chalkboard SE, cursive" stroke-linejoin="round" stroke-linecap="round">
+  <!-- wall -->
+  <rect width="600" height="400" fill="#118ab2"/>
+  <text x="300" y="26" font-size="18" font-weight="bold" fill="#fff" text-anchor="middle">MARLOW'S COFFEE - COMMUNITY BOARD</text>
+
+  <!-- cork board with frame -->
+  <rect x="20" y="38" width="560" height="345" fill="#ef476f" stroke="#000" stroke-width="5"/>
+  <rect x="36" y="54" width="528" height="313" fill="#f4a259" stroke="#000" stroke-width="3"/>
+  <g fill="#d07a2d">
+    <circle cx="60" cy="80" r="3"/><circle cx="120" cy="330" r="3"/><circle cx="520" cy="90" r="3"/><circle cx="470" cy="340" r="3"/><circle cx="300" cy="350" r="3"/><circle cx="90" cy="200" r="3"/><circle cx="540" cy="220" r="3"/>
+  </g>
+
+  <!-- lost cat flyer -->
+  <g transform="rotate(-6 110 140)">
+    <rect x="55" y="75" width="115" height="135" fill="#fff" stroke="#000" stroke-width="3"/>
+    <text x="112" y="100" font-size="16" font-weight="bold" fill="#e01b1b" text-anchor="middle">LOST CAT</text>
+    <circle cx="112" cy="140" r="22" fill="#ff9f1c" stroke="#000" stroke-width="3"/>
+    <path d="M94 125 L98 108 L106 120 Z M130 125 L126 108 L118 120 Z" fill="#ff9f1c" stroke="#000" stroke-width="3"/>
+    <circle cx="104" cy="138" r="3"/><circle cx="120" cy="138" r="3"/>
+    <text x="112" y="190" font-size="12" fill="#000" text-anchor="middle">"Biscuit"</text>
+    <circle cx="112" cy="80" r="6" fill="#2b6cff" stroke="#000" stroke-width="2"/>
+  </g>
+
+  <!-- yard sale flyer -->
+  <g transform="rotate(5 112 290)">
+    <rect x="60" y="240" width="110" height="95" fill="#b8f2a6" stroke="#000" stroke-width="3"/>
+    <text x="115" y="272" font-size="15" font-weight="bold" fill="#000" text-anchor="middle">YARD SALE</text>
+    <text x="115" y="296" font-size="12" fill="#000" text-anchor="middle">Saturday 9am</text>
+    <text x="115" y="314" font-size="12" fill="#000" text-anchor="middle">14 Elm Road</text>
+    <circle cx="115" cy="245" r="6" fill="#ffe14d" stroke="#000" stroke-width="2"/>
+  </g>
+
+  <!-- guitar lessons flyer -->
+  <g transform="rotate(4 485 150)">
+    <rect x="425" y="75" width="120" height="150" fill="#ffd1e8" stroke="#000" stroke-width="3"/>
+    <text x="485" y="102" font-size="14" font-weight="bold" fill="#000" text-anchor="middle">GUITAR</text>
+    <text x="485" y="120" font-size="14" font-weight="bold" fill="#000" text-anchor="middle">LESSONS</text>
+    <ellipse cx="485" cy="175" rx="22" ry="26" fill="#b5651d" stroke="#000" stroke-width="3"/>
+    <rect x="481" y="125" width="8" height="40" fill="#8b5a2b" stroke="#000" stroke-width="2"/>
+    <circle cx="485" cy="175" r="7" fill="#000"/>
+    <circle cx="485" cy="80" r="6" fill="#3cb043" stroke="#000" stroke-width="2"/>
+  </g>
+
+  <!-- Jax's flyer, center -->
+  <g transform="rotate(-2 300 210)">
+    <rect x="200" y="70" width="200" height="290" fill="#fff" stroke="#000" stroke-width="4"/>
+    <text x="300" y="104" font-size="20" font-weight="bold" fill="#0057b8" text-anchor="middle">NETWORK</text>
+    <text x="300" y="128" font-size="20" font-weight="bold" fill="#0057b8" text-anchor="middle">PROBLEMS?</text>
+    <!-- little computer drawing -->
+    <rect x="262" y="140" width="76" height="50" fill="#e8f4ff" stroke="#000" stroke-width="3"/>
+    <rect x="290" y="190" width="20" height="10" fill="#999" stroke="#000" stroke-width="2"/>
+    <path d="M285 158 L315 172 M315 158 L285 172" stroke="#e01b1b" stroke-width="4"/>
+    <text x="300" y="224" font-size="16" fill="#000" text-anchor="middle">I come to you.</text>
+    <text x="300" y="250" font-size="18" font-weight="bold" fill="#000" text-anchor="middle">Jax</text>
+    <line x1="200" y1="266" x2="400" y2="266" stroke="#000" stroke-width="2" stroke-dasharray="6 5"/>
+    <!-- tear-off tabs; the second one is already gone -->
+    <g stroke="#000" stroke-width="2" fill="#fff" font-size="12">
+      <rect x="208" y="266" width="28" height="90"/>
+      <rect x="280" y="266" width="28" height="90"/>
+      <rect x="316" y="266" width="28" height="90"/>
+      <rect x="352" y="266" width="28" height="90"/>
+    </g>
+    <rect x="243" y="268" width="30" height="94" fill="#f4a259" stroke="none"/>
+    <path d="M244 266 L272 266 L272 272 L266 269 L259 274 L252 269 L244 273 Z" fill="#fff" stroke="#000" stroke-width="2"/>
+    <g font-size="12" fill="#000" text-anchor="middle">
+      <text transform="translate(227 311) rotate(-90)">555-0147</text>
+      <text transform="translate(299 311) rotate(-90)">555-0147</text>
+      <text transform="translate(335 311) rotate(-90)">555-0147</text>
+      <text transform="translate(371 311) rotate(-90)">555-0147</text>
+    </g>
+    <circle cx="300" cy="76" r="8" fill="#e01b1b" stroke="#000" stroke-width="2"/>
+  </g>
+
+  <!-- Jax -->
+  <g transform="translate(359 110) scale(0.75)">
+  <g stroke="#000" stroke-width="4">
+    <rect x="176" y="300" width="22" height="55" fill="#1d4ed8"/>
+    <rect x="204" y="300" width="22" height="55" fill="#1d4ed8"/>
+    <ellipse cx="184" cy="360" rx="18" ry="9" fill="#fff"/>
+    <ellipse cx="220" cy="360" rx="18" ry="9" fill="#fff"/>
+    <rect x="148" y="215" width="22" height="75" rx="10" fill="#f77f00"/>
+    <rect x="232" y="215" width="22" height="75" rx="10" fill="#f77f00"/>
+    <circle cx="159" cy="295" r="10" fill="#c68642"/>
+    <circle cx="243" cy="295" r="10" fill="#c68642"/>
+    <rect x="164" y="205" width="74" height="100" rx="14" fill="#f77f00"/>
+    <rect x="178" y="262" width="46" height="26" rx="6" fill="#e36414"/>
+    <rect x="192" y="190" width="18" height="18" fill="#c68642"/>
+    <circle cx="201" cy="160" r="34" fill="#c68642"/>
+    <path d="M167 155 Q165 120 201 122 Q240 120 236 155 Q228 138 218 146 Q210 132 198 144 Q186 132 178 148 Z" fill="#2b2118"/>
+  </g>
+  <circle cx="190" cy="162" r="4" fill="#000"/>
+  <circle cx="213" cy="162" r="4" fill="#000"/>
+  <path d="M188 178 Q201 190 214 178" fill="none" stroke="#000" stroke-width="3"/>
+  <rect x="230" y="268" width="34" height="42" fill="#fff" stroke="#000" stroke-width="3" transform="rotate(-10 247 289)"/><text x="247" y="286" font-size="8" font-weight="bold" fill="#0057b8" text-anchor="middle" transform="rotate(-10 247 289)">NETWORK</text>
+  </g>
+</svg>

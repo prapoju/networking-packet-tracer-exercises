@@ -1,0 +1,11 @@
+@startuml uc-mia-pc
+' Purpose of Mia's computer.
+left to right direction
+actor "Family member" as FAM
+rectangle "Mia's computer" {
+  usecase "Join a Tank Rally match" as UC1
+  usecase "Type school reports" as UC2
+}
+FAM --> UC1
+FAM --> UC2
+@enduml
