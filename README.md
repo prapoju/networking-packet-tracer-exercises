@@ -5,6 +5,13 @@ Jax lost his call center job in Harbor Hill. Now he takes small network jobs fro
 </p>
 
 Here, you learn by doing, and you do it in Packet Tracer, a beginner-friendly network simulator. The problems are sequential, so each one builds on the one before. You'll start by connecting two PCs, then move on to switches, routers and more.
+# What is Packet Tracer?
+Packet Tracer is a free network simulator made by Cisco. Instead of buying real equipment, you build a network on your screen with virtual PCs, switches, routers and cables. Then you configure the devices and test whether they can talk to each other. In simulation mode, you can even watch each packet travel along the cables, step by step. You can download it for free with an account at [Cisco Networking Academy](https://www.netacad.com).
+
+<p align="center">
+  <img src="img/packet-tracer.svg" width="450" alt="Drawing of Jax at a desk, using Packet Tracer on a monitor that shows two PCs connected by a cable, with a packet envelope traveling between them">
+</p>
+
 # Problems
 - [No players found](00-no-players-found/)
 # Project structure
