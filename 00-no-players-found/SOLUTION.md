@@ -13,7 +13,7 @@
 # Things that caught my attention
 ## An ARP packet appears before the first ICMP packet
 - Before the first ICMP packet was sent, an ARP packet was sent.
-![[Pasted image 20261116162132.png]]
+![ARP packet before the first ICMP packet](img/arp-before-first-ping.png)
 ### Justification
 ```mermaid
 flowchart TD
@@ -22,7 +22,7 @@ flowchart TD
     C3["3. The first time, the sender doesn't know the receiver's MAC address"] --> C4
 ```
 ## No ARP packet appears after the first ping
-![[Pasted image 20261116163722.png]]
+![No ARP packet before the second ping](img/no-arp-second-ping.png)
 ### Justification
 ```mermaid
 flowchart TD
