@@ -20,6 +20,7 @@ Here, you learn by doing, and you do it in Packet Tracer, a beginner-friendly ne
 ```
 # When you get stuck
 - You can ask an AI to suggest articles, books, videos or explanations about your particular problem.
+- I suggest using *The TCP/IP Guide* by Charles M. Kozierok. Search it for the topics that each problem's README covers.
 # Notes
 - I'm still learning. My solutions are mostly, but not entirely, accurate.
 - I made the problem statements and diagrams with AI.
