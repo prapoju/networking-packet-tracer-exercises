@@ -1,0 +1,11 @@
+@startuml uc-computer-b
+' Purpose of computer B.
+left to right direction
+actor "Person at the computer" as P
+rectangle "Computer B" {
+  usecase "Send a message to computer A" as UC1
+  usecase "Read the messages received from computer A" as UC2
+}
+P --> UC1
+P --> UC2
+@enduml

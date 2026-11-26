@@ -1,0 +1,8 @@
+@startuml whiteboard-today
+' Nadia's question as she drew it: two computers and a cable, nothing connected.
+rectangle "Nadia's whiteboard" {
+  node "Computer A" as A
+  node "Computer B" as B
+  rectangle "Cable" as C
+}
+@enduml

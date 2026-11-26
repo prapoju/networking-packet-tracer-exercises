@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" font-family="Comic Sans MS, Comic Neue, Chalkboard SE, cursive" stroke-linejoin="round" stroke-linecap="round">
+  <!-- sky, sun, gulls -->
+  <rect width="600" height="400" fill="#4cc9f0"/>
+  <circle cx="300" cy="55" r="30" fill="#ffd60a" stroke="#000" stroke-width="4"/>
+  <g fill="none" stroke="#000" stroke-width="3">
+    <path d="M200 70 Q208 62 216 70 Q224 62 232 70"/>
+    <path d="M250 100 Q256 94 262 100 Q268 94 274 100"/>
+  </g>
+
+  <!-- sea -->
+  <rect x="0" y="240" width="600" height="100" fill="#0077b6" stroke="#000" stroke-width="4"/>
+  <g stroke="#90e0ef" stroke-width="3" fill="none">
+    <path d="M20 270 Q35 262 50 270"/><path d="M260 300 Q275 292 290 300"/><path d="M330 265 Q345 257 360 265"/>
+  </g>
+
+  <!-- fishing boat -->
+  <g stroke="#000" stroke-width="4">
+    <path d="M300 255 L400 255 L385 285 L315 285 Z" fill="#ef476f"/>
+    <rect x="330" y="230" width="35" height="25" fill="#fff"/>
+    <line x1="380" y1="255" x2="380" y2="200"/>
+  </g>
+
+  <!-- the hill with houses and the lighthouse -->
+  <path d="M400 245 Q470 90 600 70 L600 245 Z" fill="#70e000" stroke="#000" stroke-width="4"/>
+  <g stroke="#000" stroke-width="3">
+    <rect x="440" y="190" width="34" height="30" fill="#ff99c8"/><path d="M436 190 L457 172 L478 190 Z" fill="#d00000"/>
+    <rect x="488" y="150" width="34" height="30" fill="#fcf6bd"/><path d="M484 150 L505 132 L526 150 Z" fill="#3a86ff"/>
+    <rect x="500" y="205" width="34" height="30" fill="#a9def9"/><path d="M496 205 L517 187 L538 205 Z" fill="#ff7f11"/>
+    <rect x="548" y="170" width="34" height="30" fill="#e4c1f9"/><path d="M544 170 L565 152 L586 170 Z" fill="#d00000"/>
+    <!-- lighthouse -->
+    <path d="M552 110 L572 110 L578 60 L546 60 Z" fill="#fff"/>
+    <rect x="547" y="72" width="30" height="12" fill="#d00000" stroke="none"/>
+    <rect x="550" y="92" width="25" height="10" fill="#d00000" stroke="none"/>
+    <path d="M552 110 L572 110 L578 60 L546 60 Z" fill="none"/>
+    <rect x="550" y="44" width="24" height="16" fill="#ffd60a"/>
+    <path d="M546 44 L562 30 L578 44 Z" fill="#d00000"/>
+  </g>
+
+  <!-- boardwalk -->
+  <rect x="0" y="335" width="600" height="65" fill="#ffb703" stroke="#000" stroke-width="4"/>
+  <g stroke="#000" stroke-width="2">
+    <line x1="60" y1="335" x2="60" y2="400"/><line x1="140" y1="335" x2="140" y2="400"/><line x1="220" y1="335" x2="220" y2="400"/><line x1="300" y1="335" x2="300" y2="400"/><line x1="380" y1="335" x2="380" y2="400"/><line x1="460" y1="335" x2="460" y2="400"/><line x1="540" y1="335" x2="540" y2="400"/>
+  </g>
+
+  <!-- town sign -->
+  <rect x="62" y="230" width="8" height="110" fill="#6a4c93" stroke="#000" stroke-width="3"/>
+  <rect x="10" y="180" width="112" height="56" fill="#fff" stroke="#000" stroke-width="4"/>
+  <text x="66" y="204" font-size="15" font-weight="bold" fill="#0077b6" text-anchor="middle">HARBOR HILL</text>
+  <text x="66" y="224" font-size="12" fill="#000" text-anchor="middle">pop. 9,000</text>
+
+  <!-- Jax -->
+  <g stroke="#000" stroke-width="4">
+    <!-- legs and shoes -->
+    <rect x="176" y="300" width="22" height="55" fill="#1d4ed8"/>
+    <rect x="204" y="300" width="22" height="55" fill="#1d4ed8"/>
+    <ellipse cx="184" cy="360" rx="18" ry="9" fill="#fff"/>
+    <ellipse cx="220" cy="360" rx="18" ry="9" fill="#fff"/>
+    <!-- arms -->
+    <rect x="148" y="215" width="22" height="75" rx="10" fill="#f77f00"/>
+    <rect x="232" y="215" width="22" height="75" rx="10" fill="#f77f00"/>
+    <circle cx="159" cy="295" r="10" fill="#c68642"/>
+    <circle cx="243" cy="295" r="10" fill="#c68642"/>
+    <!-- hoodie -->
+    <rect x="164" y="205" width="74" height="100" rx="14" fill="#f77f00"/>
+    <rect x="178" y="262" width="46" height="26" rx="6" fill="#e36414"/>
+    <!-- neck and head -->
+    <rect x="192" y="190" width="18" height="18" fill="#c68642"/>
+    <circle cx="201" cy="160" r="34" fill="#c68642"/>
+    <!-- messy hair -->
+    <path d="M167 155 Q165 120 201 122 Q240 120 236 155 Q228 138 218 146 Q210 132 198 144 Q186 132 178 148 Z" fill="#2b2118"/>
+  </g>
+  <!-- face -->
+  <circle cx="190" cy="162" r="4" fill="#000"/>
+  <circle cx="213" cy="162" r="4" fill="#000"/>
+  <path d="M188 178 Q201 190 214 178" fill="none" stroke="#000" stroke-width="3"/>
+</svg>
