@@ -13,17 +13,21 @@ Packet Tracer is a free network simulator made by Cisco. Instead of buying real 
 </p>
 
 # Problems
-- [No players found](00-no-players-found/)
+- [Nadia's whiteboard](00-nadias-whiteboard/)
+- [No players found](01-no-players-found/)
+- [Can't reach the back office](02-cant-reach-the-back-office/)
 # Project structure
 ```
 .
-├── README.md                 this file
-├── img/                      images for this file
-└── 00-no-players-found/      one directory per problem
-    ├── README.md             the problem
-    ├── SOLUTION.md           my solution and what I learned
-    ├── pkt/                  my Packet Tracer files
-    └── img/                  images and diagrams
+├── README.md                       this file
+├── CLAUDE.md                       instructions for the AI mentor
+└── 02-cant-reach-the-back-office/  one directory per problem
+    ├── README.md                   the problem
+    └── solution/
+        ├── README.md               my solution and what I learned
+        ├── EVALUATION.md           the review of my solution
+        ├── pkt/                    my Packet Tracer files
+        └── python/                 my Python scripts
 ```
 # When you get stuck
 - You can ask an AI to suggest articles, books, videos or explanations about your particular problem.
