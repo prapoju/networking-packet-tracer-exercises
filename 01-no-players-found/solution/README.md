@@ -1,6 +1,6 @@
 # PKT
-- IPv4: a version with IPv4 ([solution_1_icmp_ipv4.pkt](solution_1_icmp_ipv4.pkt))
-- IPv6: a version with IPv6 ([solution_1_icmp_ipv6.pkt](solution_1_icmp_ipv6.pkt))
+- IPv4: a version with IPv4 ([solution_1_icmp_ipv4.pkt](pkt/solution_1_icmp_ipv4.pkt))
+- IPv6: a version with IPv6 ([solution_1_icmp_ipv6.pkt](pkt/solution_1_icmp_ipv6.pkt))
 # Decisions
 ## Copper cross-over as cable
 - Leo's computer and Mia's computer are both PCs. They are the same type of device, so we can use a cross-over cable.
