@@ -1,5 +1,5 @@
 # Combines the use case diagrams into one mosaic: uc-devices.svg
-# Run from img/ after: plantuml -tsvg uml/*.puml
+# Run from diagrams/<level>/ after: plantuml -tsvg uml/*.puml
 # Each tile is (diagram name, column, row, columns spanned).
 import re
 tiles_spec = [("uc-leo-pc", 0, 0, 1), ("uc-mia-pc", 1, 0, 1)]
