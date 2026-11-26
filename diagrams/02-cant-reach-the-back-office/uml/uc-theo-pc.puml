@@ -1,0 +1,11 @@
+@startuml uc-theo-pc
+' Purpose of Theo's computer.
+left to right direction
+actor "Shop worker" as W
+rectangle "Theo's computer" {
+  usecase "Keep the stock spreadsheet up to date" as UC1
+  usecase "Order bait and tackle from suppliers" as UC2
+}
+W --> UC1
+W --> UC2
+@enduml

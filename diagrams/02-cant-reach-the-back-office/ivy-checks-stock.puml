@@ -1,0 +1,17 @@
+@startuml ivy-checks-stock
+' How Ivy checks the stock today.
+|Ivy|
+start
+:Gets asked whether an item is in stock;
+:Opens the stock spreadsheet from her computer;
+|Ivy's computer|
+:Can't reach Theo's computer;
+|Ivy|
+:Asks the customer to wait;
+:Walks to the back office;
+|Theo's computer|
+:Shows the stock spreadsheet;
+|Ivy|
+:Walks back to the counter with the answer;
+stop
+@enduml

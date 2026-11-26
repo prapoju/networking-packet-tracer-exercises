@@ -1,0 +1,11 @@
+@startuml uc-ivy-pc
+' Purpose of Ivy's computer.
+left to right direction
+actor "Shop worker" as W
+rectangle "Ivy's computer" {
+  usecase "Ring up sales" as UC1
+  usecase "Check whether an item is in stock" as UC2
+}
+W --> UC1
+W --> UC2
+@enduml

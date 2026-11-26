@@ -1,0 +1,12 @@
+@startuml shop-today
+' Gull Point Tackle today: Ivy's computer at the counter, cabled to Theo's computer in the back office.
+rectangle "Gull Point Tackle" {
+  rectangle "Counter" {
+    node "Ivy's computer" as IPC
+  }
+  rectangle "Back office" {
+    node "Theo's computer" as TPC
+  }
+}
+IPC -right- TPC : cable
+@enduml
