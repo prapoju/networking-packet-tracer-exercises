@@ -120,7 +120,7 @@ In decimal notation:
 * Ivy's new IP: 10.20.30.65
 * Ivy's new mask: 255.255.255.192
 
-I used Python to convert decimal into binary and generate the IP: [ips.py.py](python/ips.py.py). The `ipaddress` library facilitates the work. I also used it to generate all the valid IP addresses.
+I used Python to convert decimal into binary and generate the IP: [ips.py](python/ips.py). The `ipaddress` library facilitates the work. I also used it to generate all the valid IP addresses.
 
 ![](../../img/02-cant-reach-the-back-office/Pasted%20image%2020261124184738.png)
 
