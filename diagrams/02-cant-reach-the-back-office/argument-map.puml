@@ -1,0 +1,32 @@
+@startuml argument-map
+skinparam defaultFontName Sans
+skinparam rectangle {
+  RoundCorner 12
+  BackgroundColor #FFFFFF
+  BorderColor #444444
+}
+skinparam ArrowColor #444444
+top to bottom direction
+
+' ---- Argument 1 ----
+rectangle "Ivy can send packets to all\nof the IPs that are within\nhis network" as P1
+rectangle "Theo's IP belongs to\nIvy's network" as P2
+circle " " as J1
+rectangle "**Ivy can send a packet to Theo**" as C1 #E8F1FF
+
+P1 -down- J1
+P2 -down- J1
+J1 -down-> C1
+
+' ---- Argument 2 ----
+rectangle "Theo can't send packets to\nIPs that don't belong to\nhis network" as P3
+rectangle "Ivy's IP doesn't belong to\nTheo's network" as P4
+circle " " as J2
+rectangle "**Theo can't send a packet to Ivy**" as C2 #FFECEC
+
+P3 -down- J2
+P4 -down- J2
+J2 -down-> C2
+
+C1 -[hidden]down- P3
+@enduml
